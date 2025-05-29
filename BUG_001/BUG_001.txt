@@ -1,0 +1,44 @@
+InternalCodeName PINTADOS BugReport TestType Functional TestSuite Gameplay [Feature]: Unresponsive Parry Key (Q)
+
+[Summary]
+The parry key (Q) does not respond when pressed, preventing players from executing parry actions during combat.
+
+[Precondition]
+ Software version: 1.0.0
+ Software configuration: Default settings
+ Hardware specifications: Windows 10, Intel i5, 8GB RAM
+ Network configuration: Offline
+
+[Steps to reproduce]
+ 1. Start the game.
+ 2. Press the parry key (Q) during an enemy attack.
+ 3. Observe the character's response.
+
+[Actual results]
+The character does not perform the parry action when the key is pressed.
+
+[Expected results]
+The character should successfully parry the incoming attack when the parry key (Q) is pressed.
+
+[Additional information]
+ See attached screen-recorded video...
+
+[Is this Breakage?]
+ Yes, see previous code tested
+
+[Previous code tested]
+ PS.011.001
+ 
+[Severity: How does this problem impact the customer/user?]
+ 1. Specification issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+ Less than a day

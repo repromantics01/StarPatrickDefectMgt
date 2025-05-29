@@ -1,0 +1,44 @@
+InternalCodeName VERSION TestType TestSuite [Feature]: Non-functional pause feature in options menu
+
+[Summary]
+The pause feature does not function when accessing the options menu, preventing players from pausing the game.
+
+[Precondition]
+ Software version: 1.0.0
+ Software configuration: Default settings
+ Hardware specifications: Minimum requirements met
+ Network configuration: Offline
+
+[Steps to reproduce]
+ 1. Start the game.
+ 2. Press the 'O' key to access the options menu.
+ 3. Attempt to pause the game.
+
+[Actual results]
+The game continues running without pausing.
+
+[Expected results]
+The game should pause, allowing players to adjust settings without time pressure.
+
+[Additional information]
+ See attached logs, screenshot, and video...
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ PS.011.001
+ 
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+ Less than a day

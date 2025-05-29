@@ -1,0 +1,47 @@
+StarPatrick VERSION TestType TestSuite [Feature]: Enemy status not updating after counterattack
+
+[Summary]
+BUG_005: A bug where the enemy status does not update after a successful player counterattack. (This is now covered in Pintados’ updated test case outline.)
+
+[Precondition]
+ Software version: v1.2.3 (or latest tested)
+ Software configuration: Default game settings, single-player mode
+ Hardware specifications: PC, Intel i5/i7, 8GB+ RAM, Windows 10/11
+ Network configuration: Offline or standard LAN
+
+[Steps to reproduce]
+ 1. Engage an enemy in combat.
+ 2. Successfully perform a counterattack.
+ 3. Observe the enemy's status.
+
+[Actual results]
+ After a successful counterattack, the enemy's status (e.g., HP, debuffs) does not update on the UI or in the status panel until another action is taken or the screen is refreshed.
+
+[Expected results]
+ The enemy's status should immediately reflect any changes (such as HP reduction or new debuffs) resulting from the player's counterattack.
+
+[Additional information]
+ See attached logs, screenshot, and video.
+
+[Is this Breakage?]
+ No, missed from previous pass
+
+[Previous code tested]
+ PS.011.002
+ 
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+ Less than a day
+
+/* Please Don't Share This Information to Others recklessly,
+** However, you may use this as basis for your software testing endeavors. */

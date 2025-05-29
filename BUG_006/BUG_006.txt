@@ -1,0 +1,48 @@
+InternalCodeName VERSION TestType TestSuite [Feature]: Overlapping UI issue in the crafting menu
+
+[Summary]
+The crafting menu displays overlapping UI elements, making it difficult for players to interact with the crafting options effectively.
+
+[Precondition]
+ Software version: 1.0.0
+ Software configuration: Default settings
+ Hardware specifications: Minimum requirements met
+ Network configuration: Offline
+
+[Steps to reproduce]
+ 1. Open the options menu from the main game interface.
+ 2. Select the crafting section.
+ 2. Select an item to craft.
+ 3. Observe the UI elements overlapping.
+
+[Actual results]
+UI elements overlap, causing confusion and hindering interaction.
+
+[Expected results]
+UI elements should be clearly separated and easily accessible for interaction.
+
+[Additional information]
+ See attached logs, screenshot, and video...
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ PS.011.002
+ 
+[Severity: How does this problem impact the customer/user?]
+ 2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+ Less than a day
+
+/* Please Don't Share This Information to Others recklessly,
+** However, you may use this as basis for your software testing endeavors. */

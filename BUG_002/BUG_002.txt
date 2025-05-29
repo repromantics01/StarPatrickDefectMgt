@@ -1,0 +1,45 @@
+InternalCodeName VERSION TestType TestSuite [Feature]: Player unable to perform a double jump
+
+[Summary]
+The player is unable to execute a double jump, which is a critical gameplay mechanic affecting movement and navigation.
+
+[Precondition]
+ Software version: 1.0.0
+ Software configuration: Default settings
+ Hardware specifications: Minimum requirements met
+ Network configuration: Offline mode
+
+[Steps to reproduce]
+ 1. Start the game.
+ 2. Press the jump key (spacebar) to jump.
+ 3. While in the air, press the jump key again to attempt a double jump.
+
+[Actual results]
+The player character does not perform a double jump and falls to the ground after the first jump.
+
+[Expected results]
+The player character should perform a double jump when the jump key is pressed a second time while in the air.
+
+[Additional information]
+ See attached logs, screenshot, and video...
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ AB.010.001
+ 
+[Severity: How does this problem impact the customer/user?]
+  2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+ Less than a day
+

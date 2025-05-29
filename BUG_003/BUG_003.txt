@@ -1,0 +1,48 @@
+InternalCodeName VERSION TestType TestSuite [Feature]: Ineffective sound settings
+
+[Summary]
+The sound settings in the game are ineffective, resulting in no audio or sound effects being present during gameplay.
+
+[Precondition]
+Software version: 1.0.0
+Software configuration: Default settings
+Hardware specifications: Windows 10, 8GB RAM, Intel i5 processor
+Network configuration: Offline
+
+[Steps to reproduce]
+1. Launch the game.
+2. Navigate to the settings menu.
+3. Adjust the sound settings (volume, effects).
+4. Start a new game or load an existing one.
+
+[Actual results]
+No audio or sound effects are heard during gameplay, regardless of the settings adjusted.
+
+[Expected results]
+Audio and sound effects should be present and functioning according to the adjusted settings.
+
+[Additional information]
+See attached logs, screenshot, and video...
+
+[Is this Breakage?]
+No, new implementation
+
+[Previous code tested]
+PS.011.001
+
+[Severity: How does this problem impact the customer/user?]
+2. Cosmetic issue / User is inconvenienced
+
+[Likelihood: How often will a customer/user use this feature/function?]
+8. High
+
+[Repeatability: Is this problem easily reproducible?]
+10. 100% Reproducible
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+Less than a day
+
+/* Please Don't Share This Information to Others recklessly,
+** However, you may use this as basis for your software testing endeavors. */

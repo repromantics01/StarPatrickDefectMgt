@@ -1,0 +1,47 @@
+InternalCodeName VERSION TestType TestSuite [Feature]: Dead player model remains visible after replay
+
+[Summary]
+The dead player model remains visible on the screen after a replay, which can affect the immersion and overall experience of the game.
+
+[Precondition]
+Software version: 1.0.0
+Software configuration: Default settings
+Hardware specifications: Minimum requirements met
+Network configuration: Offline
+
+[Steps to reproduce]
+1. Start a game session and allow the player character to die.
+2. Initiate a replay of the last session.
+3. Observe the screen after the replay ends.
+
+[Actual results]
+The dead player model is still visible on the screen after the replay.
+
+[Expected results]
+The dead player model should be removed from the screen after the replay ends.
+
+[Additional information]
+See attached logs, screenshot, and video...
+
+[Is this Breakage?]
+No, new implementation
+
+[Previous code tested]
+PS.011.002
+
+[Severity: How does this problem impact the customer/user?]
+6. Crash or hang cleared by restart / Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+8. High
+
+[Repeatability: Is this problem easily reproducible?]
+4. Intermittent, seen more than once
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+Less than a day
+
+/* Please Don't Share This Information to Others recklessly,
+** However, you may use this as basis for your software testing endeavors. */
